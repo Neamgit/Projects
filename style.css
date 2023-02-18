@@ -1,0 +1,182 @@
+.head{
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: #8b0505e8;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+/* 
+#barProgress {
+    width: 50%;
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-color: #000000;
+    border-style: groove;
+
+} */
+/*   
+#monsterHealth{
+    width: 100%;
+    height: 30px;
+    background-color: green;
+    border-color: black;
+    padding-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0 6px 11px rgba(0,0,0,0,0.13); 
+} */
+
+/* #yourHealth{
+    width: 100%;
+    height: 30px;
+    background-color: green;
+     border-color: black;
+    padding-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0 6px 11px rgba(0,0,0,0,0.13); 
+} */
+/* 
+#textMonster{
+    font-size: 20px;
+    margin-left: 172px;
+} */
+
+#button{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#attackBtn1{
+    color: aliceblue;
+    background: rgb(158, 17, 111);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: -8px;
+    padding-left: 42px;
+    padding-right: 42px;
+    border-radius: 9px;
+    border-top-color: rgb(158, 17, 111);
+    border-bottom-color: rgb(158, 17, 111);
+    border-left-color: rgb(158, 17, 111);
+    border-right-color: rgb(158, 17, 111);
+   
+}
+
+#attackBtn2{
+    color: aliceblue;
+    background: rgb(158, 17, 111);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 16px;
+    border-radius: 9px;
+    border-top-color: rgb(158, 17, 111);
+    border-bottom-color:rgb(158, 17, 111);
+    border-left-color: rgb(158, 17, 111);
+    border-right-color: rgb(158, 17, 111);
+    margin-left: 50px;
+}
+
+#attackBtn3{
+    color: aliceblue;
+    background: rgb(158, 17, 111);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 51px;
+    border-radius: 9px;
+    border-top-color: rgb(158, 17, 111);
+    border-bottom-color: rgb(158, 17, 111);
+    border-left-color: rgb(158, 17, 111);
+    border-right-color: rgb(158, 17, 111);
+    margin-right: 42px;
+}
+
+#attackBtn4{
+    color: aliceblue;
+    background: rgb(158, 17, 111);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 43px;
+    padding-right: 43px;
+    border-radius: 9px;
+    border-top-color: rgb(158, 17, 111);
+    border-bottom-color: rgb(158, 17, 111);
+    border-left-color: rgb(158, 17, 111);
+    border-right-color: rgb(158, 17, 111);
+    margin-left: -2px;
+}
+
+#attackBtn5{
+    color: aliceblue;
+    background: rgb(158, 17, 111);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 43px;
+    padding-right: 43px;
+    border-radius: 9px;
+    border-top-color: rgb(158, 17, 111);
+    border-bottom-color: rgb(158, 17, 111);
+    border-left-color: rgb(158, 17, 111);
+    border-right-color: rgb(158, 17, 111);
+}
+
+#monsterHealth,#yourHealth{
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 7px;
+    height:100px;
+    width: fit-content;
+    margin: auto;
+    width:40%;
+    border: solid;
+    border-color:rgba(199, 180, 180, 0.705);
+    padding-top: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    padding-top: 19px;
+    box-shadow: 10 20px 30px rgb(121, 71, 71);
+}
+#testResult{
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 7px;
+    height:100px;
+    width: fit-content;
+    margin: auto;
+    width:40%;
+    border: solid;
+    border-color:rgba(199, 180, 180, 0.705);
+    padding-top: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    padding-top: 19px;
+    box-shadow: 10 20px 30px rgb(121, 71, 71);
+    height: fit-content;
+}
+progress {
+    width: 100%;
+    height: 30px;
+    background-color: #f3e9e9;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+}
+progress::-webkit-progress-value {
+    background-color: rgba(22, 150, 111, 0.932);
+    border-radius: 2px;
+    position: absolute;
+    /* left: 0; */
+}
+progress::-moz-progress-bar {
+    background-color: rgba(22, 150, 111, 0.932);
+    border-radius: 2px;
+    position: absolute;
+}
+
+#results{
+    border-color:rgba(199, 180, 180, 0.705);
+}

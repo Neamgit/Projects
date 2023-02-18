@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+        <label>Kill The Monster</label>
+    </div>
+
+<center>
+    <div class="body">
+       <div id="monsterHealth">
+           <label id="textMonster">
+                Monster Health<br>
+            </label><br>
+                    
+            <progress id="mHealth" value="100" max="100"></progress>
+        </div>
+            
+        <div id="yourHealth">
+            <label id="textMonster" >
+                Your Health
+            </label><br><br>
+            
+            <progress id="yHealth" value="100" max="100"></progress>
+        </div>            
+    </div>
+      
+ 
+<span id="RESULT">
+    <div id="button">
+        <button onclick="attack()" id="attackBtn1">ATTACK</button>
+        <button onclick="SpecialAttack()" id="attackBtn2">SPECIAL ATTACK</button>
+    </div>
+    <div id="button2">
+        <button onclick="heal()" id="attackBtn3">HEAL</button>
+        <button onclick="GiveUp()" id="attackBtn4">GIVE UP</button><br>
+        <button onclick="New()" id="attackBtn5" style="visibility:hidden">GIVE UP</button>
+    </div>
+    <div id="testResult">
+        <p style="font-size: 30px;"><center><b>Battle Log</b></center></p>
+        <p id="test1"></p>
+        <p id="test2"></p>
+        <p id="test3"></p>
+        <p id="test4"></p> 
+       
+    </div>
+   
+</span>
+</center>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
